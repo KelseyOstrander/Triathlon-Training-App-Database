@@ -1,0 +1,7 @@
+INSERT INTO TRAININGSESSION (SESSIONID, TOTALTIME, TOTALACTIVETIME, TRANSITIONTIME)
+VALUES(15, 55.00, 49.00, 6.00);
+
+
+
+
+--everytime a triathlete logs a new sport, the date in their training table will automatically be updated showing the latest date they logged a training session

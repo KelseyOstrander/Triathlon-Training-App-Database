@@ -1,0 +1,42 @@
+This project is a database application which overlooks the general performance of a triathlete during their training period.
+
+This database holds the information of multiple users. Each user is linked to their own training sessions and training information
+based on their triathleteID. Future applications of this application would restrict views so that triathletes may only gain access to
+information pertaining to their personal training, and not that of other athletes. 
+
+A triathlete may use this application to track information about each of their individual triaining sessions. 
+
+For example: 
+	A triathlete may run to the lake, and then continue to go for a swim, before running home. All as part of one training session.
+	
+	The triathlete can log this in its entirety as one training session. They will save information about:
+			The date
+			The total Time spend excersizing
+			The total transition time between sports
+			Which Sports were included in this training session
+			The routemap for each individual sport in their training session
+			Distance/Speed information about each individual sport in their training session
+			etc.
+	This application provides the triathlete with the opportunity to log even further detail about their training session, 
+	based on which sport they were training at the time. For example:
+
+	The triathlete can save information regarding their run to the lake:
+			What shoes were they wearing?
+			Were they listening to music?
+			What was the weather outside?
+			etc.
+
+	And they can save seperate information about their swim:
+			Was the lake wavy?
+			What was the water temperature today?
+			What was the wind direction (to be added to database as a future application)
+			Was the swimmer wearing a swim cap, and/or a wetsuit?
+			etc. 
+
+This application can be later used to generate useful graphs to illustrate progress to a triathlete. It also can provide database administrators 
+with important information regarding general statistics about their users as group. 
+
+
+	
+
+ 
